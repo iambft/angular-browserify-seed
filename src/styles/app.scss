@@ -20,3 +20,70 @@ a, a:visited {
   text-decoration: none;
 }
 
+nav{
+  border-bottom: 2px solid black;
+  ul{
+    li{
+      display: inline-block;
+      border-bottom: 1px solid black;
+      font-size: 24px;
+      margin-right: 10px;
+      A{
+        color: black;
+      }
+      A:visited {
+        color: black;
+      }
+    }
+  }
+}
+
+.wrapper{
+  font-family: 'Times New Roman', Times, serif; 
+  width: 960px;
+  position: relative;
+  left: 50%;
+  margin-left: -480px;
+}
+
+#footer{
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+.photo-card{
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+
+  .image-ref{
+    width: 300px;
+    height: 300px;
+  }
+
+  .album-ref{
+   position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 5px;
+    top: 0px;
+  }
+
+  div{
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    left: 9px;
+    top: 310px;
+  }
+}
+.my-spinner{
+  font-size: 25px; 
+  height:500px; 
+  color: green; 
+  margin-top:240px;
+}

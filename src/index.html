@@ -7,7 +7,16 @@
     <!--styles-->
 </head>
 <body>
-<div class="container" ng-view></div>
+	<div class = "wrapper">
+		<bft-navbar></bft-navbar>
+		<spinner class="my-spinner" name="mySpinner">
+				Loading.............
+		</spinner>
+		<div class = "content">
+			<ui-view></ui-view>
+		</div>
+		<div id="footer">&copy; Kirill Kostichev <a href = "https://github.com/iambft/angular-browserify-seed.git" target="_blank">https://github.com/iambft/angular-browserify-seed.git</a></div>
+	</div>
 <!--scripts-->
 <!--config-->
 </body>

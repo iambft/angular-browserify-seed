@@ -39,7 +39,12 @@
         "angular-animate": "./bower_components/angular-animate/angular-animate.min.js",
         "angular-aria": "./bower_components/angular-aria/angular-aria.min.js",
         "angular-material": "./bower_components/angular-material/angular-material.min.js",
-        "angular-translate": "./bower_components/angular-translate/angular-translate.min.js"
+        "angular-translate": "./bower_components/angular-translate/angular-translate.min.js",
+        "angular-resource": "./bower_components/angular-resource/angular-resource.min.js",
+        "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
+        "angular-spinners": "./bower_components/angular-spinners/dist/angular-spinners.min.js"
+        
+
     },
     "browserify-shim": {}
 }
