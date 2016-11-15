@@ -1,0 +1,10 @@
+<div class = "photo-card">
+	<a  href="#" ng-click="card.goToPhoto($event)">
+		<img class = "image-ref" src = "{{card.item.url}}" alt="photo">
+	</a>
+
+		<div>{{card.item.title}}</div>
+	<a  ng-if = "card.albumRef" href="#" ng-click="card.goToAlbum($event)">
+		<img class = "album-ref" src = "assets/img/album-icon.png" alt="album">
+	</a>
+</div>
