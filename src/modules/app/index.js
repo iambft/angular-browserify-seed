@@ -10,7 +10,6 @@ module.exports =
         'ui.router',
         'ngResource',
         'angularSpinners',
-
         // html templates in $templateCache
         require('../../../tmp/templates').name,
 

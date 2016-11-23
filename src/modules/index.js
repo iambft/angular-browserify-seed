@@ -10,5 +10,4 @@ require('angular-translate');
 require('angular-resource'); 
 require('angular-ui-router');
 require('angular-spinners');
-// application initialization
 require('./app');

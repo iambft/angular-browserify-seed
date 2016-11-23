@@ -44,7 +44,6 @@
         "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
         "angular-spinners": "./bower_components/angular-spinners/dist/angular-spinners.min.js"
         
-
     },
     "browserify-shim": {}
 }
